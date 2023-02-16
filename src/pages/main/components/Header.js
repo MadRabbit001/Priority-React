@@ -13,7 +13,8 @@ function createList(listName){
 function Header(){
     return (
         <div className={"menu-bar"}>
-            <ul className={"ul"}>
+            <ul className={"ul-menu"}>
+                <li className={"li go"}>option1</li>
                 {listData.map(createList)}
             </ul>
         </div>

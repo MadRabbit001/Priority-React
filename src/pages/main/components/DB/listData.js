@@ -1,8 +1,5 @@
 const lists = [
-    {
-        id:1,
-        name:"option1"
-    },
+
     {
         id:2,
         name:"option2"

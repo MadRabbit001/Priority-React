@@ -1,0 +1,12 @@
+.li-sub{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: right;
+    margin: 15px;
+
+}

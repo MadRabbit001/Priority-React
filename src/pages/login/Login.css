@@ -1,4 +1,4 @@
-body{
+body > div{
     background-image: url("/src/pages/pictures/Login.PNG") ;
     background-repeat: no-repeat;
     overflow: hidden;

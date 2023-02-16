@@ -1,4 +1,33 @@
-.sub{
-    display: flex;
-    flex-direction: column;
+.li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.li:hover{
+    background-color: #00cdff;
+    border-radius: 5px;
+}
+
+.sub-menu-1 {
+    position: absolute;
+    background: #049fce;
+    border: 2px solid blue;
+    margin-top: 15px;
+    margin-left: -70px;
+    z-index: 3;
+}
+
+.ul-sub-menu{
+    display: block;
+    margin: 10px;
+    list-style: none;
+    color: #fff;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
