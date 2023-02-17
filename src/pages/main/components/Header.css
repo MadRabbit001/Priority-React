@@ -8,6 +8,7 @@ body{
 
 .menu-bar {
     background: rgb(111, 111, 121, 1);
+    width: 100em;
     text-align: center;
     z-index: 2;
     display: flex;

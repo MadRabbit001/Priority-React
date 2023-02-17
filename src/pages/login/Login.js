@@ -4,7 +4,7 @@ import logo from "../pictures/img.png"
 import Footer from "./components/Footer";
 import VideoPlayer from "./components/VideoPlayer";
 import Greet from "./components/Greet";
-
+import styled from "styled-components";
 
 function Login(){
     return(
