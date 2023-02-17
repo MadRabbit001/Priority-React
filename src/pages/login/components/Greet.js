@@ -1,7 +1,5 @@
 import React from "react";
-import styled from 'styled-components';
-
-import "./Greet.css"
+import Greeting from "../styled-component/GreetStyled";
 
 function Greet(){
     let greeting = "";
@@ -9,15 +7,9 @@ function Greet(){
 
     if (time > 5 && time <= 12) {
         greeting = "Good Morning!";
-        greeting.styled.p`
-        border: 2px solid blue;
-        `;
     }
     else if (time > 12 && time <=16) {
         greeting = "Have a Perfect Noon!";
-        greeting.styled.p`
-        border: 2px solid blue;
-        `;
     }
     else if (time > 16 && time <= 20) {
         greeting = "Have a Perfect AfterNoon!";
@@ -25,11 +17,11 @@ function Greet(){
     else if (time > 20 && time <= 24) {
         greeting = "Good Evening Boss!";
     }
-    else if (time > 24 && time <= 5) {
+    else if (time > 0 && time <= 5) {
         greeting = "Why the FUCK you awake?!";
     }
 
-    return <p>{greeting}</p>
+    return <Greeting>{greeting}</Greeting>
 }
 
 export default Greet;
